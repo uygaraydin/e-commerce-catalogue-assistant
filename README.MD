@@ -14,7 +14,7 @@ An AI-powered RAG (Retrieval-Augmented Generation) application that helps custom
 
 ## 🎬 Demo
 
-![Demo Video](./mov.gif)
+![Demo Video](./demo.gif)
 
 *Interactive IKEA product search assistant that helps customers find furniture and home decoration items with prices, specifications, and direct product links*
 
@@ -118,9 +118,10 @@ pinecone-client
 
 ## Development
 
-- **Scheduled Data Refresh**: Set up automated daily/weekly crawling to update product prices, availability, and discount status
-- **Real-time Price Validation**: Implement price checking before displaying results to users
-- **Database Synchronization**: Regular sync between scraped data and live website data
+- **Automated Scheduled Updates**: Set up cron jobs or task schedulers for automatic daily/weekly crawling without manual intervention
+- **Real-time Price Validation**: Implement live price checking during user queries to ensure accuracy
+- **Background Data Sync**: Continuous monitoring and updating of product database in the background
+- **Notification System**: Alert system for when products go out of stock or prices change significantly
 
 ## Troubleshooting
 
