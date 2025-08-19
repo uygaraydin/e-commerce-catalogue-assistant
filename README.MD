@@ -14,7 +14,7 @@ An AI-powered RAG (Retrieval-Augmented Generation) application that helps custom
 
 ## 🎬 Demo
 
-![Demo Video](./demo.gif)
+![Demo Video](./mov.gif)
 
 *Interactive IKEA product search assistant that helps customers find furniture and home decoration items with prices, specifications, and direct product links*
 
