@@ -14,7 +14,7 @@ An AI-powered RAG (Retrieval-Augmented Generation) application that helps custom
 
 ## 🎬 Demo
 
-![Demo Video](./mov.gif)
+![Demo Video](./demo.gif)
 
 *Interactive IKEA product search assistant that helps customers find furniture and home decoration items with prices, specifications, and direct product links*
 
@@ -116,7 +116,11 @@ langchain-tavily
 pinecone-client
 ```
 
-## Troubleshooting
+## Development
+
+- **Scheduled Data Refresh**: Set up automated daily/weekly crawling to update product prices, availability, and discount status
+- **Real-time Price Validation**: Implement price checking before displaying results to users
+- **Database Synchronization**: Regular sync between scraped data and live website data
 
 ## Troubleshooting
 
