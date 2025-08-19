@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+# Core dependencies
+streamlit = "*"
+python-dotenv = "*"
+
+# Web scraping
+crawl4ai = "*"
+beautifulsoup4 = "*"
+
+# LangChain ecosystem
+langchain-community = "*"
+langchain-openai = "*"
+langchain-pinecone = "*"
+langchain-tavily = "*"
+
+# Vector database
+pinecone-client = "*"
+
+# Development tools (optional)
+black = "*"
+isort = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
